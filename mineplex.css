@@ -1302,18 +1302,18 @@ desc, etc.
 */
 
 
-/* #chat [data-cid^="3609549-"].emote {
+/* #chat [data-cid^="6171406-"].emote {
         background: rgba(255, 255, 68, 0.1) !important;
         border-left: #FFD244 3px solid !important;
     } 28463273
 
-    f #chat [data-cid^="3609549-"].message {
+    f #chat [data-cid^="6171406-"].message {
         background: rgba(255, 255, 68, 0.1) !important;
         border-left: #FFD244 3px solid !important;
     } */
 
-#chat-messages [data-cid^="3609549-"] .timestamp,
-#chat [data-cid^="3609549-"].emote .timestamp {
+#chat-messages [data-cid^="6171406-"] .timestamp,
+#chat [data-cid^="6171406-"].emote .timestamp {
     color: #FFBE5B !important;
 }
 
@@ -1333,40 +1333,40 @@ desc, etc.
     font-style: normal;
 }
 
-#chat [data-cid^='3609549-'] .badge-box .bdg {
+#chat [data-cid^='6171406-'] .badge-box .bdg {
     background-image: url(https://theme.foxifly.net/images/FoxBotBadge2_ByFoxifly.png)!important;
     background-size: cover !important;
 }
 
-#chat [data-cid^="3609549-"].message .timestamp {
+#chat [data-cid^="6171406-"].message .timestamp {
     color: #FFBE5B !important;
 }
 
-#chat [data-cid^="3609549-"].emote .text {
+#chat [data-cid^="6171406-"].emote .text {
     color: #f7f7f7 !important;
 }
 
-#chat [data-cid^="3609549-"].message {
+#chat [data-cid^="6171406-"].message {
     color: #f7f7f7 !important;
 }
 
-#chat [data-cid^="3609549-"] .icon,
-#chat .id-3609549 .icon {
+#chat [data-cid^="6171406-"] .icon,
+#chat .id-6171406 .icon {
     display: none !important;
 }
 
-#user-lists .list .user.id-3609549 .name,
-#user-rollover.id-3609549 .username,
-#chat [data-cid^='3609549-'] .un {
+#user-lists .list .user.id-6171406 .name,
+#user-rollover.id-6171406 .username,
+#chat [data-cid^='6171406-'] .un {
     color: #ff3d00 !important;
     font-style: italic;
 }
 
-#chat-messages [data-cid^="3609549-"] .text {
+#chat-messages [data-cid^="6171406-"] .text {
     font-weight: bold;
 }
 
-#chat-messages [data-cid^="3609549-"] .msg {
+#chat-messages [data-cid^="6171406-"] .msg {
     font-weight: bold;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
     border-radius: 10px;
