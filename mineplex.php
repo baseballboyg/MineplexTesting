@@ -2,24 +2,24 @@
 {
     "room": "Mineplex Official",
     "author": "baseballboyg/Gavin",
-    "css": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/mineplex.css",
+    "css": "https://theme.foxifly.net/rcs/FoxDen_byFoxifly.css",
     "icon": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/icon.png",
     "images": {
         "background":"https://cdn.radiant.dj/rcs/bg/2k14minecraft.jpg",
-        "playback": "https://theme.foxifly.net/images/FoxDenPlayback_ByFoxifly.png",
-        "host": "https://theme.foxifly.net/images/MiniFoxLogo_ByFoxifly.png",
-        "cohost": "https://theme.foxifly.net/images/CoHostImg_ByFoxifly.png"
+        "playback": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/playback.png",
+        "host": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/fire.png",
+        "cohost": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/hosts.png"
     },
 
     "rules": {
-        "allowAutorespond": true,
-        "allowAutowoot": true,
-        "allowAutojoin": true,
-        "allowAutograb": true,
-        "allowSmartVote": true,
-        "allowEmotes": true,
-        "allowShowingMehs": true,
-        "forceSmartVote": false
+      "allowAutorespond": true,
+      "allowAutowoot": true,
+      "allowAutojoin": false,
+      "allowAutograb": true,
+      "allowSmartVote": true,
+      "allowEmotes": true,
+      "allowShowingMehs": true,
+      "forceSmartVote": false
     },
     "ccc": {
       "admin":                "#42A5DC",
