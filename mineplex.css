@@ -71,11 +71,11 @@ This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
 .jspDrag:hover,
 .jspTrack .jspActive,
 .jspTrack .jspHover {
-    background: rgba(255, 99, 0, 0.5)!important;
+    background: rgba(253, 124, 0, 0.5)!important;
 }
 
  ::-webkit-scrollbar-thumb {
-    background: rgba(255, 99, 0, 0.5)!important;
+    background: rgba(253, 124, 0, 0.5)!important;
 }
 
 #user-inventory .history .list .row.avatar,
@@ -85,7 +85,7 @@ This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
 }
 
 .jspDrag {
-    background: rgba(255, 99, 0, 0.3)!important;
+    background: rgba(253, 124, 0, 0.3)!important;
 }
 
 #playlist-meta.sub #subscribebtn-menu,
@@ -108,7 +108,7 @@ This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
 /*Icons*/
 
 .icon {
-    background-image: url('https://theme.foxifly.net/images/PlugDJIcons_ByFoxifly.png');
+    background-image: url('https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/icon.png');
 }
 
 
@@ -116,7 +116,7 @@ This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
 
 #toast-notifications .notification .right,
 #toast-notifications .notification .left {
-    background: linear-gradient(rgba(255, 99, 0, 0.4), rgba(255, 141, 68, 0.4))!important;
+    background: rgba(37, 41, 44, 0.4) !important;
 }
 
 #room-bar .favorite i {
@@ -126,7 +126,7 @@ This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
 #room-bar .favorite:hover i {
     animation: voterhovAnimation 1s infinite;
 }
-
+/* STOPPED HERE */
 
 /*RCS CHAT TEXT*/
 
