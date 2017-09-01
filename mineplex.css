@@ -1,7 +1,7 @@
-@import url("https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/DonorLevelOne.css");
-@import url("https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/DonorLevelTwo.css");
-@import url("https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/DonorLevelThree.css");
-@import url("https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/CustomRoles.css");
+@import url("https://rawgit.com/baseballboyg/MineplexTesting/master/DonorLevelOne.css");
+@import url("https://rawgit.com/baseballboyg/MineplexTesting/master/DonorLevelTwo.css");
+@import url("https://rawgit.com/baseballboyg/MineplexTesting/master/DonorLevelThree.css");
+@import url("https://rawgit.com/baseballboyg/MineplexTesting/master/CustomRoles.css");
 
 /*
 Fox Den Room Theme
@@ -108,7 +108,7 @@ This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
 /*Icons*/
 
 .icon {
-    background-image: url('https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/icon.png');
+    background-image: url('https://rawgit.com/baseballboyg/MineplexTesting/master/icon.png');
 }
 
 
@@ -1317,9 +1317,9 @@ desc, etc.
     color: #FFBE5B !important;
 }
 
-#chat [data-cid^='3609549-'] .un:after,
-#user-lists .list .user.id-3609549 .name:after,
-#user-rollover.id-3609549 .username:after {
+#chat [data-cid^='6171406-'] .un:after,
+#user-lists .list .user.id-6171406 .name:after,
+#user-rollover.id-6171406 .username:after {
     content: 'BOT';
     border-style: solid;
     border-color: #FFD244;

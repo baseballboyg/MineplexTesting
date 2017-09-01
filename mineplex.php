@@ -2,13 +2,13 @@
 {
     "room": "Mineplex Official",
     "author": "baseballboyg/Gavin",
-    "css": "https://theme.foxifly.net/rcs/FoxDen_byFoxifly.css",
-    "icon": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/icon.png",
+    "css": "https://rawgit.com/baseballboyg/MineplexTesting/master/mineplex.css",
+    "icon": "https://rawgit.com/baseballboyg/MineplexTesting/master/icon.png",
     "images": {
         "background":"https://cdn.radiant.dj/rcs/bg/2k14minecraft.jpg",
-        "playback": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/playback.png",
-        "host": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/fire.png",
-        "cohost": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/hosts.png"
+        "playback": "https://rawgit.com/baseballboyg/MineplexTesting/master/playback.png",
+        "host": "https://rawgit.com/baseballboyg/MineplexTesting/master/fire.png",
+        "cohost": "https://rawgit.com/baseballboyg/MineplexTesting/master/hosts.png"
     },
 
     "rules": {
@@ -35,15 +35,15 @@
       "user":                 "#8B92A3"
     },
     "emotes": {
-        "eternal": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/eternal.png",
-        "hero": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/hero.png",
-        "legend":  "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/legend.png",
-        "potato": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/minecraft_potato.gif",
-        "mineplex_symbol": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/mineplex_symbol.png",
-        "mineplex":"https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/mineplex.png",
-        "nyan_chiss":"https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/nyan_chiss.png",
-        "titan":"https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/titan.png",
-        "ultra":"https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/ultra.png",
-        "chiss":"https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/chiss.png"
+        "eternal": "https://rawgit.com/baseballboyg/MineplexTesting/master/eternal.png",
+        "hero": "https://rawgit.com/baseballboyg/MineplexTesting/master/hero.png",
+        "legend":  "https://rawgit.com/baseballboyg/MineplexTesting/master/legend.png",
+        "potato": "https://rawgit.com/baseballboyg/MineplexTesting/master/minecraft_potato.gif",
+        "mineplex_symbol": "https://rawgit.com/baseballboyg/MineplexTesting/master/mineplex_symbol.png",
+        "mineplex":"https://rawgit.com/baseballboyg/MineplexTesting/master/mineplex.png",
+        "nyan_chiss":"https://rawgit.com/baseballboyg/MineplexTesting/master/nyan_chiss.png",
+        "titan":"https://rawgit.com/baseballboyg/MineplexTesting/master/titan.png",
+        "ultra":"https://rawgit.com/baseballboyg/MineplexTesting/master/ultra.png",
+        "chiss":"https://rawgit.com/baseballboyg/MineplexTesting/master/chiss.png"
     }
 }
