@@ -34,9 +34,9 @@ https://foxifly.net/images/fennicfoxbadge.png
 https://foxifly.net/images/redfoxdonorbadge.png
 https://foxifly.net/images/arcticdonatorbadge.png */
 
-#chat [data-cid^='27289493-'] .un:after,
-#user-lists .list .user.id-27289493 .name:after,
-#user-rollover.id-27289493 .username:after {
+#chat [data-cid^='6171406-'] .un:after,
+#user-lists .list .user.id-6171406 .name:after,
+#user-rollover.id-6171406 .username:after {
     content: 'Arctic Fox'!important;
     border-style: solid!important;
     border-color: #98FF47!important;
@@ -50,11 +50,11 @@ https://foxifly.net/images/arcticdonatorbadge.png */
     font-style: normal;
 }
 
-#user-rollover .id-27289493 .thumb {
+#user-rollover .id-6171406 .thumb {
     background: #98FF47 !important;
 }
 
-#chat [data-cid^='27289493-'] .badge-box .bdg {
+#chat [data-cid^='6171406-'] .badge-box .bdg {
     background-size: cover !important;
     height: 30px;
     width: 30px;
@@ -62,7 +62,7 @@ https://foxifly.net/images/arcticdonatorbadge.png */
     background-image: url(https://theme.foxifly.net/images/WarOfDarknessBadge_ByFoxifly.png)!important;
 }
 
-#user-rollover.id-27289493 .badge-box .bdg {
+#user-rollover.id-6171406 .badge-box .bdg {
     background-image: url(https://theme.foxifly.net/images/WarOfDarknessBadge_ByFoxifly.png) !important;
     height: 30px;
     width: 30px;
@@ -71,14 +71,14 @@ https://foxifly.net/images/arcticdonatorbadge.png */
     border-radius: 6px;
 }
 
-#chat [data-cid^="27289493-"] .bdg:before {
+#chat [data-cid^="6171406-"] .bdg:before {
     content: url(https://theme.foxifly.net/images/WarOfDarknessHover_Jax.gif) !important;
     position: absolute;
     transition: ease-in-out 0.3s;
     opacity: 0;
 }
 
-#chat [data-cid^="27289493-"]:hover .bdg:before {
+#chat [data-cid^="6171406-"]:hover .bdg:before {
     opacity: 1;
 }
 
