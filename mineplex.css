@@ -1,0 +1,1486 @@
+@import url("https://theme.foxifly.net/rcs/DonorLevelOne_ByFoxifly.css");
+@import url("https://theme.foxifly.net/rcs/DonorLevelTwo_ByFoxifly.css");
+@import url("https://theme.foxifly.net/rcs/DonorLevelThree_ByFoxifly.css");
+@import url("https://theme.foxifly.net/rcs/CustomRoles_ByFoxifly.css");
+
+/*
+Fox Den Room Theme
+
+Author: Foxifly
+https://foxifly.net/
+https://plug.dj/foxdenedm
+
+Â© 2017
+
+No use of this code without authorization.
+This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
+*/
+
+@keyframes voterAnimation {
+    0% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(1.25)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes voterhovAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes playlistHov {
+    0% {
+        transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(360deg)
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        filter: hue-rotate(0deg) !important;
+    }
+    100% {
+        filter: hue-rotate(360deg) !important;
+    }
+}
+
+
+/*
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ COSMETIC Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+*/
+
+
+/*Scrollbar*/
+
+.jspDrag:hover,
+.jspTrack .jspActive,
+.jspTrack .jspHover {
+    background: rgba(255, 99, 0, 0.5)!important;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgba(255, 99, 0, 0.5)!important;
+}
+
+#user-inventory .history .list .row.avatar,
+#user-inventory .history .list .row .item,
+#user-inventory .history .list .row.badge {
+    background: black;
+}
+
+.jspDrag {
+    background: rgba(255, 99, 0, 0.3)!important;
+}
+
+#playlist-meta.sub #subscribebtn-menu,
+#andriodbadge-menu.social-menu,
+#playlist-meta.sub #androidbadge-menu,
+#playlist-meta.sub #facebook-menu,
+#playlist-meta.sub #twitter-menu,
+#playlist-meta.sub #iosbadge-menu {
+    display: none!important;
+}
+
+
+/*Tooltips */
+
+#tooltip {
+    display: none;
+}
+
+
+/*Icons*/
+
+.icon {
+    background-image: url('https://theme.foxifly.net/images/PlugDJIcons_ByFoxifly.png');
+}
+
+
+/*Toast*/
+
+#toast-notifications .notification .right,
+#toast-notifications .notification .left {
+    background: linear-gradient(rgba(255, 99, 0, 0.4), rgba(255, 141, 68, 0.4))!important;
+}
+
+#room-bar .favorite i {
+    animation: playlistHov 20s infinite;
+}
+
+#room-bar .favorite:hover i {
+    animation: voterhovAnimation 1s infinite;
+}
+
+
+/*RCS CHAT TEXT*/
+
+#chat .rs-log-purple,
+#chat .rs-log-user-grab {
+    color: #FF8D44!important;
+}
+
+.rsshit.sml .icon-grab,
+.rsshit.sml.rs-log-user-grab .badge-box i {
+    background-image: url('https://theme.foxifly.net/images/RCSGrabIcon_ByFoxifly.png')!important;
+}
+
+#chat .rs-log-red,
+#chat .rs-log-user-level1-join,
+#chat .rs-log-user-meh {
+    color: #FF6363 !important;
+}
+
+
+/*
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ CHAT Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+*/
+
+#chat .welcome {
+    color: #FF8D44;
+}
+
+#chat .system {
+    box-shadow: inset 0 0 0 1px #FF8D44!important;
+    font-weight: bold!important;
+}
+
+#chat .system .from .un {
+    color: #FF3E3E!important;
+}
+
+#chat .system .timestamp {
+    color: #FF6363!important;
+}
+
+#chat .rs-log-purple,
+#chat .rs-log-user-grab {
+    border-left: #FF8D44 3px solid!important;
+}
+
+
+/*
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ PLAYLIST Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+*/
+
+.media-list .action.related {
+    display: none;
+}
+
+.playlist-media .actions {
+    width: 230px;
+    margin-right: 80px
+}
+
+.playlist-media-first-item .actions,
+.playlist-media-last-item .actions {
+    width: 165px !important;
+}
+
+.actions.related {
+    display: none;
+}
+
+#playlist-button {
+    background: linear-gradient(to bottom, #FF8D44, #FF6300);
+}
+
+.playlist-media .actions,
+.media-list .selected .actions {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+    margin-right: 40px !important;
+}
+
+#playlist-menu .button {
+    background: black;
+    color: white;
+}
+
+#playlist-activate-button {
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-radius: 7px;
+}
+
+#playlist-meta {
+    top: 0;
+    width: 0;
+}
+
+#playlist-menu .menu .row .count {
+    color: #FF6363 !important;
+    font-weight: bold;
+}
+
+#playlist-activate-button span {
+    color: #FF8D44 !important;
+}
+
+#search {
+    background: black !important;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+}
+
+#search-bar .focused {
+    box-shadow: inset 0 0 0 1px #FF8D44 !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF8D44 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF8D44 !important;
+}
+
+#playlist-import:hover {
+    background: #FF6363 !important;
+}
+
+#playlist-create:hover {
+    background: #FF8D44 !important;
+}
+
+.media-list .row.now-playing {
+    border-bottom: white;
+}
+
+#playlist-panel {
+    background: url('https://theme.foxifly.net/images/FoxDenBlur_ByFoxifly.png') no-repeat !important;
+    background-size: cover !important;
+}
+
+.icon-room {
+    background: url(https://theme.foxifly.net/images/MiniFoxFullLogo_ByFoxifly.png) no-repeat !important;
+    width: 30px;
+    height: 30px;
+}
+
+#playlist-menu {
+    background: black !important;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+}
+
+#playlist-menu .menu .row.selected {
+    background: rgba(255, 141, 68, 0.5)!important;
+    border-radius: 7px;
+}
+
+#playlist-menu .menu .row .name {
+    font-weight: bold;
+}
+
+
+/*CHAT*/
+
+#chat .moderation {
+    color: #FF6363 !important;
+}
+
+#chat .moderation .un {
+    color: #FF3E3E !important;
+}
+
+#rcs-progress-container .bar {
+    background: linear-gradient(to right, #FF8D44, #FF6300);
+    opacity: 0.5;
+}
+
+#playback-container {
+    background-image: url(https://theme.foxifly.net/images/FoxDenPlayback_ByFoxifly.png) !important;
+    background-position: center;
+    background-size: 100% auto;
+    border: 2px grey;
+}
+
+
+/*
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ HISTORY Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+*/
+
+.media-list.history .meta .author {
+    color: white;
+}
+
+.media-list.history .score .positive {
+    color: #FF6300!important;
+}
+
+.media-list.history .score .grabs span {
+    color: #FF8D44!important;
+}
+
+.media-list.history .score .negative {
+    color: #FF6363 !important;
+}
+
+
+/*
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ HEADERS Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ FOOTERS Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+*/
+
+.app-header {
+    background: url('https://theme.foxifly.net/images/AppHeaderBG_FoxDen.jpg') no-repeat !important;
+    background-size: cover !important;
+    box-shadow: 0 0 20px #000000;
+}
+
+#rs-skip-button {
+    background: transparent!important;
+}
+
+#history-button {
+    background: transparent!important;
+}
+
+#footer {
+    background: url('https://theme.foxifly.net/images/AppHeaderBG_FoxDen.jpg') no-repeat !important;
+    background-size: cover !important;
+    box-shadow: 0 0 20px #000;
+}
+
+#footer-user .buttons .button:hover,
+#footer-user .button.inventoryhover,
+#footer-user .buttons .button:hover,
+#footer-user .buttons .button.settings:hover,
+#footer-user .buttons .button.store:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 10px;
+}
+
+#footer-user .buttons .button.store:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 10px;
+}
+
+#footer-user .info .bar .progress {
+    background: #FF8D44!important;
+}
+
+#dialog-preview .dialog-frame .button.submit {
+    color: white!important;
+}
+
+
+/*
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ DJ BUTTON Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+*/
+
+#dj-button .left {
+    background: transparent!important;
+    transition: ease-in-out 0.8s;
+    width: 100%;
+    border-radius: 20px!important;
+}
+
+#dj-button .left .icon {
+    display: none!important;
+}
+
+#dj-button span {
+    margin-left: 30px;
+}
+
+#dj-button.is-locked {
+    cursor: not-allowed;
+}
+
+#dj-button.is-full .left,
+#dj-button.is-locked .left {
+    background: transparent!important;
+}
+
+#dj-button.is-leave .left,
+#dj-button.is-quit .left {
+    background-color: rgba(255, 190, 91, 0.3)!important;
+    text-shadow: 2px 2px black!important;
+    border-radius: 20px!important;
+    width: 100%
+}
+
+#dj-button .left {
+    background-color: transparent!important;
+    border-radius: 20px!important;
+}
+
+#dj-button {
+    width: 200px;
+    border-radius: 6px;
+    background-color: transparent !important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px!important;
+    transition: ease-in-out 0.4s;
+    border-width: 2px;
+}
+
+#dj-button:hover {
+    transition: 0.3s;
+    background-color: rgba(255, 210, 68, 0.2)!important;
+    text-shadow: 1px 1px black!important;
+}
+
+
+/*
+
+
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ POP UPS Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+
+
+*/
+
+.dialog.destructive .button.submit {
+    background: linear-gradient(to bottom, #FF8D44, #FF6300) !important;
+}
+
+.dialog-frame .button.cancel {
+    color: #FF8D44 !important;
+}
+
+.dialog-frame .title {
+    color: #FFB044!important;
+}
+
+
+/*
+
+
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ ROOM SETTINGS Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+
+desc, etc.
+
+*/
+
+#room-settings .general-settings .option button.off {
+    background: linear-gradient(to bottom, #FF8D44, #FF6300);
+}
+
+#room-settings .general-settings .value {
+    color: #FFB044!important;
+    text-shadow: 1px;
+    text-align: center;
+    font-weight: bold;
+    width: 60% !important;
+}
+
+#room-settings .general-settings .value a {
+    color: #FF8D44 !important;
+    text-shadow: 1px;
+}
+
+#room-settings .general-settings .welcome {
+    margin-left: 22%;
+}
+
+#room-settings .general-settings .edit span {
+    display: none;
+}
+
+#room-settings .general-settings .edit i {
+    display: none;
+}
+
+#room-settings {
+    background: url('https://theme.foxifly.net/images/FoxDenBlur_ByFoxifly.png') no-repeat !important;
+    background-size: cover !important;
+}
+
+#room-settings .general-settings .option.enabled>button.on {
+    background: linear-gradient(to bottom, #FF8D44, #FF6300);
+}
+
+#room-settings .general-settings .option button {
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+#room-settings .general-settings .description {
+    background: rgba(255, 255, 255, 0.1)!important;
+    text-align: center;
+    font-weight: bold;
+    width: 60% !important;
+    border-radius: 30px;
+    margin-left: 22%;
+    height: 50% !important;
+}
+
+#room-settings .general-settings .option .title {
+    color: #FFB044;
+}
+
+#room-settings .general-settings .panel .title {
+    display: none;
+}
+
+#room-settings .general-settings .panel .title {
+    display: none;
+}
+
+#room-settings .general-settings .description textarea {
+    min-width: 50% !important;
+    max-width: 50% !important;
+    width: 50% !important;
+}
+
+#room-settings .general-settings .description .value {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#room-settings .general-settings .description .value a:nth-of-type(7) {
+    display: none;
+}
+
+#room-settings .general-settings .option.enabled>button.off {
+    color: white;
+    background: black;
+}
+
+.dropdown dt {
+    background: black !important;
+    color: white;
+}
+
+.dropdown dd .row {
+    background: black !important;
+}
+
+#room-settings-menu {
+    background: black !important;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+}
+
+#room-settings-menu .item.selected {
+    background: rgba(255, 141, 68, 0.5)!important;
+    border-radius: 7px;
+}
+
+#room-settings-menu .title {
+    color: #FFB044;
+}
+
+#footer-user.showing .back {
+    background: #804722;
+}
+
+
+/*
+
+
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ L PLUG MENU Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+
+desc, etc.
+
+*/
+
+#app-menu.open .list {
+    color: white !important;
+}
+
+
+/* #app-menu.open {
+    background: black;
+    opacity: 0.75!important;
+    filter: alpha(opacity=75) !important;
+} */
+
+#app-menu.open .button i {
+    display: none;
+}
+
+#app-menu.open {
+    background: transparent !important;
+}
+
+#app-menu.open .list {
+    background: url('https://theme.foxifly.net/images/FoxDenBlur_ByFoxifly.png') no-repeat !important;
+    background-size: cover !important;
+}
+
+#app-menu .list a {
+    color: white;
+}
+
+#app-menu .list .item:hover {
+    background: rgba(255, 141, 68, 0.5)!important;
+    border-radius: 7px;
+}
+
+
+/*
+
+
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ DASHBOARD Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+
+
+*/
+
+#dashboard {
+    background: url('https://theme.foxifly.net/images/FoxDenBlur_ByFoxifly.png') no-repeat !important;
+    background-size: cover !important;
+}
+
+.communities .grid .cell {
+    background: black!important;
+    border-radius: 15px;
+}
+
+.communities .grid .cell .meta {
+    background: black!important;
+}
+
+.communities .grid .cell .bar {
+    background: black!important;
+}
+
+.communities .grid .cell .favorite i:hover {
+    animation: voterAnimation 1s ease infinite;
+}
+
+.tab-menu button.selected {
+    background: linear-gradient(to bottom, #FF8D44, #FF6300);
+}
+
+.tab-menu button {
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.tab-menu button:hover {
+    background: black;
+}
+
+.tab-menu button.selected:hover {
+    background: linear-gradient(to bottom, #FF8D44, #FF6300);
+}
+
+
+/*
+
+
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ PROFILE Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+
+
+*/
+
+#user-view {
+    background: url('https://theme.foxifly.net/images/FoxDenBlur_ByFoxifly.png') no-repeat !important;
+    background-size: cover !important;
+}
+
+.user-content.profile .meta .blurb input {
+    box-shadow: inset 0 0 0 1px #FF8D44 !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF8D44 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF8D44 !important;
+}
+
+.user-content.profile .meta.is-staff .role span {
+    display: none;
+}
+
+.user-content.profile .meta .blurb .box {
+    background: rgba(255, 255, 255, 0.2)!important;
+    text-align: center;
+    font-weight: bold;
+    color: #FF8D44;
+    border-radius: 7px;
+}
+
+.user-content.profile .meta .blurb .arrow-up {
+    display: none;
+}
+
+.user-content .header {
+    -webkit-box-shadow: inset 0 0 0 0 #000;
+    box-shadow: inset 0 0 0 0 #000;
+}
+
+.experience .xp .bar {
+    background: black!important;
+}
+
+.experience .levels .level.mystery .label,
+.experience .levels .level .label {
+    background: black!important;
+}
+
+#user-menu .avatar,
+#user-inventory .avatars .grid .cell.selected .top {
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-radius: 80px;
+}
+
+#user-inventory .badges .grid .cell.selected {
+    box-shadow: #FF8D44 0px 0px 0px 2px inset;
+}
+
+#user-menu .avatar,
+#user-inventory .avatars .grid .cell:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+#user-inventory .badges .grid .cell:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+#user-inventory .grid .cell .top {
+    background: transparent;
+    border-radius: 80px;
+}
+
+.user-content .grid .cell {
+    background: rgba(255, 255, 255, 0.07)!important;
+    border-radius: 80px;
+}
+
+.user-content .grid .cell .top {
+    background: transparent;
+}
+
+#user-view .banner {
+    display: none;
+}
+
+#user-inventory .grid {
+    margin-top: 15px;
+}
+
+.user-content.profile .notifications .row {
+    background: transparent;
+}
+
+.experience .xp .next-level {
+    color: white;
+}
+
+#user-settings .container .cap .value {
+    display: none;
+}
+
+#user-friends .list .row .joined,
+.user-content.profile .notifications .row .timestamp,
+#user-inventory .history .legend span,
+.user-content .header span {
+    color: #FFB044;
+    font-weight: bold;
+}
+
+.media-list.history .meta .timestamp,
+.user-content.profile .points .label,
+.user-content.profile .meta .joined {
+    color: #FFB044;
+}
+
+#user-friends .list .row .joined {
+    font-size: 11px;
+    padding-left: 30px;
+}
+
+#user-friends .list .row .level span,
+#user-friends .list .row .level .label {
+    color: #FF8D44;
+    font-weight: bold;
+}
+
+#user-friends .list .row .buttons button {
+    background: transparent !important;
+    box-shadow: 1px rgba(255, 255, 255, 0.2)!important;
+    ;
+}
+
+#user-friends .list .row .buttons button:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 30px;
+}
+
+#user-friends .list .row .level {
+    padding-left: 25px;
+}
+
+#user-friends .list .row .name {
+    font-weight: bold;
+}
+
+#user-menu {
+    background: black !important;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+}
+
+.user-content.profile .experience {
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.experience .description {
+    font-weight: bold;
+    color: #FF8D44;
+}
+
+.user-content .section {
+    width: 93%!important
+}
+
+#user-menu .item.selected {
+    background: rgba(255, 141, 68, 0.5)!important;
+    border-radius: 7px;
+}
+
+.user-content .grid .cell:hover>.top {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+#user-store .badges .grid .cell .top {
+    background: transparent;
+    border-radius: 80px;
+}
+
+#user-store .badges .grid .cell .top:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+#user-store .misc .grid .cell {
+    border-radius: 10px;
+    background: transparent;
+}
+
+#user-store .misc .grid .cell .title-bar {
+    background: rgba(255, 255, 255, 0.07)!important;
+}
+
+#user-store .misc .grid .cell .top {
+    background: transparent!important;
+}
+
+#user-store .misc .grid .cell .top:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+#user-friends .list .row {
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-radius: 20px;
+}
+
+.user-content.communities .grid .cell {
+    border-radius: 10px;
+}
+
+.user-content.communities .grid .cell {
+    height: 210px;
+}
+
+.user-content.communities .message {
+    color: #FF8D44;
+    font-weight: bold;
+}
+
+.user-content.communities .message a,
+.user-content.communities .message a:visited {
+    color: #FF6300
+}
+
+#user-settings .container .cap .title,
+#user-settings .container .item span {
+    color: white;
+}
+
+.media-list .row:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 10px;
+}
+
+.media-list .meta {
+    border-bottom: 0px;
+}
+
+.user-content.profile .points .subscribe-button {
+    background: rgba(255, 255, 255, 0.07)!important;
+    border-radius: 10px;
+}
+
+.user-content.profile .points .subscribe-button:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 10px;
+}
+
+#user-menu .avatar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*
+
+
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ ROOM VOTE Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+
+
+*/
+
+#woot {
+    width: 75px!important;
+    height: 75px!important;
+    transition: ease-in-out 0.2s!important;
+    background-color: transparent!important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 3px;
+    background-image: url(https://theme.foxifly.net/images/Woot_ByFoxifly.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    margin-left: 5px;
+}
+
+#grab {
+    width: 75px!important;
+    height: 75px!important;
+    transition: ease-in-out 0.2s!important;
+    background-color: transparent!important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 3px;
+    background-image: url(https://theme.foxifly.net/images/Grab_ByFoxifly.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    margin-left: 2px!important;
+    margin-right: 2px!important;
+}
+
+#meh {
+    width: 75px!important;
+    height: 75px!important;
+    transition: ease-in-out 0.2s!important;
+    background-color: transparent!important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 3px;
+    background-image: url(https://theme.foxifly.net/images/Meh_ByFoxifly.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+}
+
+#woot.selected,
+#woot:hover {
+    background-color: rgba(255, 99, 0, 0.3)!important;
+    transition: ease-in-out 0.2s!important;
+}
+
+#grab.selected,
+#grab:hover {
+    background-color: rgba(255, 141, 68, 0.3)!important;
+    transition: ease-in-out 0.2s!important;
+}
+
+#meh.selected,
+#meh:hover {
+    background-color: rgba(255, 99, 99, 0.3)!important;
+    transition: ease-in-out 0.2s!important;
+}
+
+#woot.crowd-response.disabled.active .bottom,
+#vote.crowd-response.disabled.active,
+#woot .bottom,
+#grab .bottom,
+#meh .bottom {
+    background-color: transparent !important;
+}
+
+#woot .top,
+#grab .top,
+#meh .top {
+    display: none!important;
+}
+
+#vote .crowd-response .value {
+    margin-top: 17px;
+    font-size: 11px!important;
+}
+
+#woot .crowd-response .value {
+    margin-top: -90px
+}
+
+#woot .bottom {
+    text-shadow: 1px 1px black;
+    animation: otherway .5s;
+    animation-fill-mode: forwards;
+}
+
+#woot.crowd-response .bottom .value {
+    font-size: 14px!important;
+    padding-top: 4px;
+    display: block;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 27px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: -25px;
+    background-color: #FF6300;
+}
+
+#woot:hover .bottom {
+    display: block;
+    animation: voteslide .5s;
+    animation-fill-mode: forwards;
+}
+
+#meh .bottom {
+    text-shadow: 1px 1px black;
+    animation: otherway .5s;
+    animation-fill-mode: forwards;
+}
+
+#meh.crowd-response .bottom .value {
+    font-size: 14px!important;
+    padding-top: 4px;
+    display: block;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 27px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: -25px;
+    background-color: #FF6363;
+}
+
+#meh:hover .bottom {
+    display: block;
+    animation: voteslide .5s;
+    animation-fill-mode: forwards;
+}
+
+#grab .bottom {
+    text-shadow: 1px 1px black;
+    animation: otherway .5s;
+    animation-fill-mode: forwards;
+}
+
+#grab.crowd-response .bottom .value {
+    font-size: 14px!important;
+    padding-top: 4px;
+    display: block;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 27px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: -25px;
+    background-color: #FF8D44;
+}
+
+#grab:hover .bottom {
+    display: block;
+    animation: voteslide 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.votes-rs {
+    display: none!important;
+}
+
+@keyframes voteslide {
+    0% {
+        top: 20px;
+        opacity: 0
+    }
+    25% {
+        top: 10px;
+    }
+    75% {
+        top: 5px
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes otherway {
+    0% {
+        top: 15px;
+    }
+    25% {
+        top: 20px;
+    }
+    75% {
+        top: 25px
+    }
+    100% {
+        top: 30px;
+        opacity: 0
+    }
+}
+
+.votes-rs {
+    display: none!important;
+}
+
+.pop-menu.menu {
+    background-color: transparent!important;
+}
+
+.pop-menu.grab {
+    background: transparent;
+    width: 250px
+}
+
+.pop-menu.grab .bar {
+    display: none;
+}
+
+.pop-menu .bar .bar-divider {
+    background: #AAA;
+}
+
+.pop-menu.grab .menu::-webkit-scrollbar-thumb {
+    background: rgba(255, 141, 68, 0.3)!important;
+}
+
+.pop-menu.grab .menu ul {
+    background: rgba(0, 0, 0, 0.7)!important;
+    border-radius: 10px!important;
+}
+
+.pop-menu.grab .menu ul li:hover {
+    background: rgba(255, 255, 255, 0.4)!important;
+    border-radius: 50px!important;
+    text-shadow: 2px 2px black;
+}
+
+.pop-menu.grab .menu ul li.create:hover {
+    background: rgba(255, 141, 68, 0.5)!important;
+}
+
+.dialog-frame .button.submit,
+.rs .button.submit {
+    background: linear-gradient(to bottom, #FF8D44, #FF6300) !important;
+}
+
+.dialog-input-background {
+    box-shadow: #FF8D44 0px 0px 0px 2px inset!important;
+}
+
+.dialog-input-background.focused {
+    box-shadow: #FF8D44 0px 0px 0px 2px inset!important;
+}
+
+.experience .xp .bar .progress {
+    background: #FF8D44 !important;
+}
+
+.media-list .row.selected {
+    background: rgba(255, 255, 68, 0.1) !important;
+}
+
+.experience .levels .level.earned.ep .label,
+.experience .levels .level.earned.pp .label {
+    background: #FF8D44 !important;
+}
+
+.experience .levels .level.earned.community .label {
+    background: #FF6300 !important;
+}
+
+.experience .levels .level.earned.avatar .label {
+    background: #FF6363 !important;
+}
+
+#chat-input.focused {
+    box-shadow: inset 0 0 0 1px #FF8D44 !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF8D44 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF8D44 !important;
+}
+
+
+/*
+#woot.selected .icon,
+#grab.selected .icon,
+#meh.selected .icon {
+    animation: voterAnimation 1s ease infinite;
+}
+
+#woot:hover .icon,
+#grab:hover .icon,
+#meh:hover .icon {
+    animation: voterhovAnimation 1s ease infinite;
+}
+
+#woot .bottom,
+#woot.selected,
+#vote .crowd-response.selected #woot,
+#woot.crowd-response.disabled.active .bottom,
+#woot-rs .vote .voters-rs .title.woot {
+    background: #FF6300;
+}
+
+#meh .bottom,
+#meh.selected,
+#vote .crowd-response.selected #meh,
+#meh.crowd-response.disabled.active .bottom,
+#meh-rs .vote .voters-rs .title.meh {
+    background: #FF6363;
+}
+
+#grab .bottom,
+#grab.selected,
+#vote .crowd-response.selected #grab,
+#grab.crowd-response.disabled.active .bottom,
+#grab-rs .vote .voters-rs .title.grab {
+    background: #FF8D44;
+} */
+
+#user-rollover {
+    background: black!important;
+    border-radius: 20px!important;
+}
+
+
+/*
+
+
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ FOX BOT Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+
+
+*/
+
+
+/* #chat [data-cid^="3609549-"].emote {
+        background: rgba(255, 255, 68, 0.1) !important;
+        border-left: #FFD244 3px solid !important;
+    } 28463273
+
+    f #chat [data-cid^="3609549-"].message {
+        background: rgba(255, 255, 68, 0.1) !important;
+        border-left: #FFD244 3px solid !important;
+    } */
+
+#chat-messages [data-cid^="3609549-"] .timestamp,
+#chat [data-cid^="3609549-"].emote .timestamp {
+    color: #FFBE5B !important;
+}
+
+#chat [data-cid^='3609549-'] .un:after,
+#user-lists .list .user.id-3609549 .name:after,
+#user-rollover.id-3609549 .username:after {
+    content: 'BOT';
+    border-style: solid;
+    border-color: #FFD244;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #FFD244;
+    font-style: normal;
+}
+
+#chat [data-cid^='3609549-'] .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/FoxBotBadge2_ByFoxifly.png)!important;
+    background-size: cover !important;
+}
+
+#chat [data-cid^="3609549-"].message .timestamp {
+    color: #FFBE5B !important;
+}
+
+#chat [data-cid^="3609549-"].emote .text {
+    color: #f7f7f7 !important;
+}
+
+#chat [data-cid^="3609549-"].message {
+    color: #f7f7f7 !important;
+}
+
+#chat [data-cid^="3609549-"] .icon,
+#chat .id-3609549 .icon {
+    display: none !important;
+}
+
+#user-lists .list .user.id-3609549 .name,
+#user-rollover.id-3609549 .username,
+#chat [data-cid^='3609549-'] .un {
+    color: #ff3d00 !important;
+    font-style: italic;
+}
+
+#chat-messages [data-cid^="3609549-"] .text {
+    font-weight: bold;
+}
+
+#chat-messages [data-cid^="3609549-"] .msg {
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
+    border-radius: 10px;
+}
+
+
+/*J U N I O R
+    F O X
+    B O T */
+
+#chat-messages [data-cid^="28463273-"] .timestamp,
+#chat [data-cid^="28463273-"].emote .timestamp {
+    color: #FFBE5B !important;
+}
+
+#chat [data-cid^='28463273-'] .un:after,
+#user-lists .list .user.id-28463273 .name:after,
+#user-rollover.id-28463273 .username:after {
+    content: 'TEST BOT';
+    border-style: solid;
+    border-color: #FFD244;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #FFD244;
+    font-style: normal;
+}
+
+#chat [data-cid^='28463273-'] .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/FoxBotBadge_ByFoxifly.png)!important;
+    background-size: cover !important;
+}
+
+#chat [data-cid^="28463273-"].message .timestamp {
+    color: #FFBE5B !important;
+}
+
+#chat [data-cid^="28463273-"].emote .text {
+    color: #f7f7f7 !important;
+}
+
+#chat [data-cid^="28463273-"].message {
+    color: #f7f7f7 !important;
+}
+
+#chat [data-cid^="28463273-"] .icon,
+#chat .id-28463273 .icon {
+    display: none !important;
+}
+
+#user-lists .list .user.id-28463273 .name,
+#user-rollover.id-28463273 .username,
+#chat [data-cid^='28463273-'] .un {
+    color: #d60092 !important;
+    font-style: italic;
+}
+
+#chat-messages [data-cid^="28463273-"] .text {
+    font-weight: bold;
+}
+
+#chat-messages [data-cid^="28463273-"] .msg {
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
+    border-radius: 10px;
+}
+
+
+/*
+Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ Â¸â€žÃ¸Â¤ÂºÂ°Â¨Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¨Â°ÂºÂ¤Ã¸â€žÂ¸ MEDIA LISTS Â¸â€žÃ¸Â¤ÂºÂ°Â¨
+Â¸â€žÃ¸Â¤Âº â€œÂ°ÂºÂ¤Ã¸â€žÂ¸ Â¤Ã¸â€žÂ¸Â¨Â°ÂºÂ¤Ã¸â€žÂ¸Â¸â€ž
+*/
+
+.media-list.history .row.selected,
+.media-list .row.now-playing .actions {
+    background: rgba(255, 255, 68, 0.1)!important;
+}
+
+.media-list .actions .media-list .selected .actions {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+.media-list.history .row:hover .actions {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+    margin-right: 140px !important;
+}
+
+.media-list .selected .actions:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+.media-list .row.now-playing {
+    border-bottom: 0px solid black !important;
+    background: rgba(255, 255, 255, 0.4)!important;
+}
+
+.media-list .row.now-playing .actions {
+    width: 55px !important;
+}
+
+.media-list .selected .actions {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+}
+
+.media-list .actions {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 80px;
+    margin-right: 40px !important;
+}

@@ -1,0 +1,342 @@
+/*
+Fox Den Room Theme
+
+Author: Foxifly
+https://foxifly.net/
+https://plug.dj/foxdenedm
+
+Â© 2017
+
+No use of this code without authorization.
+This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
+*/
+/*--------------------FOXI-------------------------*/
+
+#chat [data-cid^='3439856-'] .badge-box .bdg {
+    background-size: cover !important;
+    height: 30px;
+    width: 30px;
+    background-position: 0px;
+    background-image: url(https://theme.foxifly.net/images/FoxiflyBadge_ByFoxifly.png)!important;
+}
+
+#user-rollover.id-3439856 .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/FoxiflyBadge_ByFoxifly.png) !important;
+    height: 30px;
+    width: 30px;
+    background-position: 0px;
+    background-size: cover !important;
+    border-radius: 6px;
+}
+
+#chat [data-cid^="3439856-"] .bdg:before {
+    content: url(https://theme.foxifly.net/images/FoxiflyHoverBadge_ByFoxifly.png) !important;
+    position: absolute;
+    transition: ease-in-out 0.3s;
+    opacity: 0;
+}
+
+#chat [data-cid^="3439856-"]:hover .bdg:before {
+    opacity: 1;
+}
+/*--------------------AEDI-------------------------*/
+
+#chat [data-cid^='3476433-'] .badge-box .bdg {
+    background-size: cover !important;
+    height: 30px;
+    width: 30px;
+    background-position: 0px;
+    background-image: url(https://theme.foxifly.net/images/AediPlotBadge_ByFoxifly.png)!important;
+}
+
+#user-rollover.id-3476433 .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/AediPlotBadge_ByFoxifly.png) !important;
+    height: 30px;
+    width: 30px;
+    background-position: 0px;
+    background-size: cover !important;
+    border-radius: 6px;
+}
+
+#chat [data-cid^="3476433-"] .bdg:before {
+    content: url(https://theme.foxifly.net/images/AediBadge_ByFoxifly.png) !important;
+    position: absolute;
+    transition: ease-in-out 0.3s;
+    opacity: 0;
+}
+
+#chat [data-cid^="3476433-"]:hover .bdg:before {
+    opacity: 1;
+}
+/*--------------------DOT-------------------------*/
+
+#chat [data-cid^='4105708-'] .badge-box .bdg {
+    background-size: cover !important;
+    background-position: 0px;
+    background-image: url(https://theme.foxifly.net/images/DotBadge_ByFoxifly.png)!important;
+}
+
+#user-rollover.id-4105708 .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/DotBadge_ByFoxifly.png) !important;
+    background-position: 0px;
+    background-size: cover !important;
+    border-radius: 6px;
+}
+
+#chat [data-cid^="4105708-"] .bdg:before {
+    content: url(https://theme.foxifly.net/images/DotHoverBadge_ByFoxifly.gif) !important;
+    position: absolute;
+    transition: ease-in-out 0.3s;
+    opacity: 0;
+}
+
+#chat [data-cid^="4105708-"]:hover .bdg:before {
+    opacity: 1;
+}
+/*---------------------------------------------*/
+
+#chat [data-cid^='28167914-'] .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/AediBadge_ByFoxifly.png)!important;
+    background-size: cover !important;
+    background-position: 0px;
+    height: 30px;
+    width: 30px;
+}
+
+#user-rollover.id-28167914 .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/AediBadge_ByFoxifly.png) !important;
+    height: 30px;
+    width: 30px;
+    background-size: cover !important;
+}
+
+#chat [data-cid^='28167914-'] .badge-box .bdg {
+    background-size: cover !important;
+    height: 30px;
+    width: 30px;
+    background-position: 0px;
+    background-image: url(https://theme.foxifly.net/images/AediBadge_ByFoxifly.png)!important;
+}
+
+#user-rollover.id-28167914 .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/AediBadge_ByFoxifly.png) !important;
+    height: 30px;
+    width: 30px;
+    background-position: 0px;
+    background-size: cover !important;
+    border-radius: 6px;
+}
+
+#user-lists .list .user.id-28167914 .name,
+#user-rollover.id-28167914 .username,
+#chat [data-cid^="28167914-"] .un {
+    visibility: hidden;
+}
+
+#chat [data-cid^='28167914-'] .un:before,
+#user-lists .list .user.id-28167914 .name:before,
+#user-rollover.id-28167914 .username:before {
+    visibility: visible;
+    content: 'FincelyFox';
+    margin: 0 0 0 0px;
+    padding: 0 0px;
+    font-style: normal;
+}
+
+#chat [data-cid^="28167914-"] .bdg:before {
+    content: url(https://theme.foxifly.net/images/AediBadge_ByFoxifly.png) !important;
+    position: absolute;
+    transition: ease-in-out 0.3s;
+    opacity: 1;
+}
+
+#user-lists .list .user.id-29134529 .name,
+#user-rollover.id-29134529 .username,
+#chat [data-cid^="29134529-"] .un {
+    visibility: hidden;
+}
+
+#chat [data-cid^='29134529-'] .un:before,
+#user-lists .list .user.id-29134529 .name:before,
+#user-rollover.id-29134529 .username:before {
+    visibility: visible;
+    content: 'Foxifly';
+    margin: 0 0 0 0px;
+    padding: 0 0px;
+    color: #FFEB44;
+    font-style: normal;
+}
+
+#chat [data-cid^='29134529-'] .un:after {
+    visibility: visible;
+    content: 'MOBILE';
+    border-style: solid;
+    border-color: #ABA89F;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 67px!important;
+    top: 0px;
+    padding: 0 2px;
+    color: #ABA89F;
+    font-style: normal;
+}
+
+#user-lists .list .user.id-29134529 .name:after,
+#user-rollover.id-29134529 .username:after {
+    visibility: visible;
+    content: 'MOBILE';
+    border-style: solid;
+    border-color: #ABA89F;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    position: absolute;
+    left: 60px;
+    top: 3px;
+    padding: 0 2px;
+    color: #ABA89F;
+    font-style: normal;
+}
+
+#user-lists .list .user.id-13439816 .name,
+#user-rollover.id-13439816 .username,
+#chat [data-cid^="13439816-"] .un {
+    visibility: hidden;
+}
+
+#chat [data-cid^='13439816-'] .un:before,
+#user-lists .list .user.id-13439816 .name:before,
+#user-rollover.id-13439816 .username:before {
+    visibility: visible;
+    content: 'WarriorCatsRox';
+    color: #FF6363;
+    margin: 0 0 0 0px;
+    padding: 0 0px;
+    font-style: normal;
+}
+
+#chat [data-cid^='13439816-'] .un:after,
+#user-lists .list .user.id-13439816 .name:after,
+#user-rollover.id-13439816 .username:after {
+    visibility: visible;
+    content: 'MOBILE';
+    border-style: solid;
+    border-color: #ABA89F;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    position: absolute;
+    left: 120px!important;
+    top: 3px;
+    padding: 0 2px;
+    color: #ABA89F;
+    font-style: normal;
+}
+/*---------------FINCELY/FAUXING-----------------------*/
+
+#chat [data-cid^='28167914-'] .un:after {
+    visibility: visible;
+    content: 'MOBILE';
+    border-style: solid;
+    border-color: #ABA89F;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+    padding: 0 2px;
+    color: #ABA89F;
+    font-style: normal;
+}
+
+#user-lists .list .user.id-28167914 .name:after,
+#user-rollover.id-28167914 .username:after {
+    visibility: visible;
+    content: 'MOBILE';
+    border-style: solid;
+    border-color: #ABA89F;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: 3px;
+    padding: 0 2px;
+    color: #ABA89F;
+    font-style: normal;
+}
+
+#chat [data-cid^='28167914-'] .rcs-user-info {
+    margin-left: 20px;
+}
+/*---------------FOXFUL EYE-----------------------*/
+
+#chat-messages [data-cid^="29877667-"] .timestamp,
+#chat [data-cid^="29877667-"].emote .timestamp {
+    color: #FFBE5B !important;
+}
+
+#chat [data-cid^='29877667-'] .un:after,
+#user-lists .list .user.id-29877667 .name:after,
+#user-rollover.id-29877667 .username:after {
+    content: 'BOT';
+    border-style: solid;
+    border-color: #FFD244;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #FFD244;
+    font-style: normal;
+}
+
+#chat [data-cid^='29877667-'] .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/FoxBotBadge2_ByFoxifly.png)!important;
+    background-size: cover !important;
+}
+
+#chat [data-cid^="29877667-"].message .timestamp {
+    color: #FFBE5B !important;
+}
+
+#chat [data-cid^="29877667-"].emote .text {
+    color: #f7f7f7 !important;
+}
+
+#chat [data-cid^="29877667-"].message {
+    color: #f7f7f7 !important;
+}
+
+#chat [data-cid^="29877667-"] .icon,
+#chat .id-29877667 .icon {
+    display: none !important;
+}
+
+#user-lists .list .user.id-29877667 .name,
+#user-rollover.id-29877667 .username,
+#chat [data-cid^='29877667-'] .un {
+    color: #ff3d00 !important;
+    font-style: italic;
+}
+
+#user-lists .list .user.id-29877667 {
+    display: none!important;
+}
+
+#chat-messages [data-cid^="29877667-"] .text {
+    font-weight: bold;
+}
+
+#chat-messages [data-cid^="29877667-"] .msg {
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
+    border-radius: 10px;
+}

@@ -1,0 +1,59 @@
+/* #chat [data-cid^='29134584-'] .un:after,
+#user-lists .list .user.id-29134584 .name:after,
+#user-rollover.id-29134584 .username:after {
+    content: 'Red Fox'!important;
+    border-style: solid!important;
+    border-color: #9fdf96!important;
+    border-radius: 2px;
+    border-width: 0.1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 0 3px;
+    color: #9fdf96!important;
+    font-style: normal;
+}
+
+#user-rollover .id-29134584 .thumb {
+    background: #9fdf96 !important;
+}
+
+#chat [data-cid^='29134584-'] .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/DonorLevelTwoBadge_ByFoxifly.png)!important;
+    background-size: cover !important;
+}
+
+#user-lists .list .user.id-29134584 .name,
+#user-rollover.id-29134584 .username,
+#chat [data-cid^='29134584-'] .un {
+    color: #9fdf96 !important;
+}
+
+
+/*
+https://foxifly.net/images/fennicfoxbadge.png
+https://foxifly.net/images/redfoxdonorbadge.png
+https://foxifly.net/images/arcticdonatorbadge.png */
+
+
+/*Fincely*/
+
+#chat [data-cid^='3476433-'] .un:after,
+#user-lists .list .user.id-3476433 .name:after,
+#user-rollover.id-3476433 .username:after {
+    content: 'Red Fox'!important;
+    border-style: solid!important;
+    border-color: #9fdf96!important;
+    border-radius: 2px;
+    border-width: 0.1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 0 3px;
+    color: #9fdf96!important;
+    font-style: normal;
+}
+
+#user-rollover .id-3476433 .thumb {
+    background: #9fdf96 !important;
+}

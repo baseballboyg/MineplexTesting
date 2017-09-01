@@ -1,0 +1,55 @@
+/* #chat [data-cid^='27592968-'] .un:after,
+#user-lists .list .user.id-27592968 .name:after,
+#user-rollover.id-27592968 .username:after {
+    content: 'Gray Fox'!important;
+    border-style: solid!important;
+    border-color: #88b657!important;
+    border-radius: 2px;
+    border-width: 0.1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 0 3px;
+    color: #88b657!imporstant;
+    font-style: normal;
+}
+
+#user-rollover .id-27592968 .thumb {
+    background: #88b657 !important;
+}
+
+#chat [data-cid^='27592968-'] .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/DonorLevelOneBadge_ByFoxifly.png)!important;
+    background-size: cover !important;
+}
+
+
+/*
+https://foxifly.net/images/fennicfoxbadge.png
+https://foxifly.net/images/redfoxdonorbadge.png
+https://foxifly.net/images/arcticdonatorbadge.png */
+
+#chat [data-cid^='4063416-'] .un:after,
+#user-lists .list .user.id-4063416 .name:after,
+#user-rollover.id-4063416 .username:after {
+    content: 'Gray Fox'!important;
+    border-style: solid!important;
+    border-color: #88b657!important;
+    border-radius: 2px;
+    border-width: 0.1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 0 3px;
+    color: #88b657!important;
+    font-style: normal;
+}
+
+#user-rollover .id-4063416 .thumb {
+    background: #88b657 !important;
+}
+
+#chat [data-cid^='4063416-'] .badge-box .bdg {
+    background-image: url(https://theme.foxifly.net/images/DonorLevelOneBadge_ByFoxifly.png)!important;
+    background-size: cover !important;
+}
