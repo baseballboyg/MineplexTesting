@@ -2,7 +2,7 @@
 {
     "room": "Mineplex Official",
     "author": "baseballboyg/Gavin",
-    "css": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/mineplex.css",
+    "css": "https://theme.foxifly.net/rcs/FoxDen_byFoxifly.css",
     "icon": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/icon.png",
     "images": {
         "background":"https://cdn.radiant.dj/rcs/bg/2k14minecraft.jpg",
