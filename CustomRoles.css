@@ -284,7 +284,7 @@ This code is only for use in Fox Den | EDM (https://plug.dj/foxdenedm)
 
 #chat [data-cid^='29877667-'] .un:after,
 #user-lists .list .user.id-29877667 .name:after,
-#user-rollover.id-29877667 .username:after {
+#user-rollover.id-6171406 .username:after {
     content: 'BOT';
     border-style: solid;
     border-color: #FFD244;
