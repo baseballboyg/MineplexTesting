@@ -1,15 +1,15 @@
 
 {
-    "room": "Mineplex Official",
-    "author": "baseballboyg/Gavin",
-    "css": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/mineplex.css",
-    "icon": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/icon.png",
-    "images": {
-        "background":"https://cdn.radiant.dj/rcs/bg/2k14minecraft.jpg",
-        "playback": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/playback.png",
-        "host": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/fire.png",
-        "cohost": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/hosts.png"
-    },
+  "room": "Fox Den",
+  "author": "Foxifly",
+  "css": "https://theme.foxifly.net/rcs/FoxDen_byFoxifly.css",
+  "icon": "https://theme.foxifly.net/images/MiniFoxFullLogo_ByFoxifly.png",
+  "images": {
+      "background":"https://theme.foxifly.net/images/FoxDenBG_ByFoxifly.png",
+      "playback": "https://theme.foxifly.net/images/FoxDenPlayback_ByFoxifly.png",
+      "host": "https://theme.foxifly.net/images/MiniFoxLogo_ByFoxifly.png",
+      "cohost": "https://theme.foxifly.net/images/CoHostImg_ByFoxifly.png"
+  },
 
     "rules": {
         "allowAutorespond": true,
