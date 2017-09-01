@@ -2,7 +2,7 @@
 {
     "room": "Fox Den",
     "author": "Foxifly",
-    "css": "https://theme.foxifly.net/rcs/FoxDen_byFoxifly.css",
+    "css": "https://raw.githubusercontent.com/baseballboyg/MineplexTesting/master/mineplex.css",
     "icon": "https://theme.foxifly.net/images/MiniFoxFullLogo_ByFoxifly.png",
     "images": {
         "background":"https://theme.foxifly.net/images/FoxDenBG_ByFoxifly.png",
