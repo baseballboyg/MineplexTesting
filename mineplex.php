@@ -5,7 +5,7 @@
     "css": "https://rawgit.com/baseballboyg/MineplexTesting/master/mineplex.css",
     "icon": "https://rawgit.com/baseballboyg/MineplexTesting/master/icon.png",
     "images": {
-        "background":"https://cdn.radiant.dj/rcs/bg/2k14minecraft.jpg",
+        "background":"http://mp-su.com/l/30266213.jpg",
         "playback": "https://rawgit.com/baseballboyg/MineplexTesting/master/playback.png",
         "host": "https://rawgit.com/baseballboyg/MineplexTesting/master/fire.png",
         "cohost": "https://rawgit.com/baseballboyg/MineplexTesting/master/hosts.png"
